@@ -1,0 +1,90 @@
+body{
+    background: #16193D;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-gradient-darkblue {
+    width: 360px;
+    height: 530px;
+    border: double 3px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.075) 52.08%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #fe3688, #73bcff, #b9dcff, #fe3688);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.overlay{
+    background-color: #090c32;
+    border-radius: 15px;
+}
+
+.overlay:hover{
+    box-shadow: 0 0 10px 5px rgba(254, 52, 136, .50), 0 5px 10px 5px rgba(59, 130, 241, 0.5) ;
+    background: linear-gradient(334.7deg, #FE3688 0%, #73BCFF 94.7%);
+    transition: 0.25s ease-out;
+}
+
+.content{
+    background: linear-gradient(rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.075) 52.08%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 15px;
+    height: 530px;
+    width: 360px;
+}
+
+.feheader{
+    text-align: center;
+    line-height: 45.58px;
+    color: white;
+    font-size: 36px;
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+.para{
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26.59px;
+    color: white;
+    width: 315px;
+    height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+.saly-42{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    height: 225px;
+    width: 225px;
+    top: 43px;
+    left: 69px;
+    right: 66px;
+    bottom: 262px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.saly-31{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.container{
+    display: inline-flex;
+    top: 10rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
